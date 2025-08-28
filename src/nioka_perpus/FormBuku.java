@@ -368,17 +368,14 @@ public class FormBuku extends javax.swing.JFrame {
             model.addElement("Pilih Rak Buku");
 
             while (rs.next()) {
-                // Mengambil nilai dari kolom "nama_rak" dan menambahkannya ke dalam model ComboBox
                 //        int idRak = rs.getInt("id_rak");
                 String namaRak = rs.getString("nama_rak");
                 model.addElement(namaRak);
 
                 //        String rakFormat = idRak + " " + namaRak;
-
                 //        model.addElement(rakFormat);
             }
 
-            // Menutup ResultSet dan PreparedStatement
             rs.close();
             pst.close();
             jComboBox3.setModel(model);
@@ -577,12 +574,10 @@ public class FormBuku extends javax.swing.JFrame {
             model.addElement("Pilih Rak Buku");
 
             while (rs.next()) {
-                // Mengambil nilai dari kolom "nama_rak" dan menambahkannya ke dalam model ComboBox
                 String namaRak = rs.getString("nama_rak");
                 model.addElement(namaRak);
             }
 
-            // Menutup ResultSet dan PreparedStatement
             rs.close();
             pst.close();
             jComboBox3.setModel(model);
@@ -619,12 +614,10 @@ public class FormBuku extends javax.swing.JFrame {
             model.addElement("Pilih Rak Buku");
 
             while (rs.next()) {
-                // Mengambil nilai dari kolom "nama_rak" dan menambahkannya ke dalam model ComboBox
                 String namaRak = rs.getString("nama_rak");
                 model.addElement(namaRak);
             }
 
-            // Menutup ResultSet dan PreparedStatement
             rs.close();
             pst.close();
             jComboBox3.setModel(model);
@@ -696,12 +689,10 @@ public class FormBuku extends javax.swing.JFrame {
             model.addElement("Pilih Rak Buku");
 
             while (rs.next()) {
-                // Mengambil nilai dari kolom "nama_rak" dan menambahkannya ke dalam model ComboBox
                 String namaRak = rs.getString("nama_rak");
                 model.addElement(namaRak);
             }
 
-            // Menutup ResultSet dan PreparedStatement
             rs.close();
             pst.close();
             jComboBox3.setModel(model);
