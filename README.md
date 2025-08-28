@@ -38,18 +38,17 @@ Follow these steps to get the project running on your local machine:
 
 1.  **Clone the Repository**
     ```sh
-    git clone [https://github.com/your-username/simple-desktop-library-app.git](https://github.com/your-username/simple-desktop-library-app.git)
+    git clone https://github.com/niokagi/simple-desktop-library-app.git
     ```
-    *(Ganti `your-username` dan `simple-desktop-library-app`)*
 
 2.  **Database Setup**
     -   Start your MySQL server.
     -   Create a new database (e.g., `library_db`).
-    -   Import the `database_schema.sql` file (Anda perlu menyediakannya dari proyek Anda) into your new database. This will create all the necessary tables.
+    -   Import the `database_schema.sql`
 
 3.  **Configure Database Connection**
     -   Open the project in NetBeans.
-    -   Navigate to the database connection configuration file (misalnya: `src/com/project/util/DatabaseConnector.java`).
+    -   Navigate to the database connection configuration file.
     -   Update the database URL, username, and password to match your local MySQL setup.
     ```java
     private static final String URL = "jdbc:mysql://localhost:3306/library_db";
